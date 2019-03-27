@@ -7,7 +7,7 @@
 		exports["CalendarHeatmap"] = factory(require("react"), require("moment"), require("d3"));
 	else
 		root["CalendarHeatmap"] = factory(root["React"], root["moment"], root["d3"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_4__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_4__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -565,29 +565,22 @@ var CalendarHeatmap = function (_React$Component) {
       }).attr('fill', function (d) {
         return d.total > 0 ? color(d.total) : 'transparent';
       }).on('click', function (d) {
-        if (_this3.in_transition) {
-          return;
-        }
 
-        // Don't transition if there is no data to show
-        if (d.total === 0) {
-          return;
-        }
-
-        _this3.in_transition = true;
-
-        // Set selected date to the one clicked on
-        _this3.selected = d;
-
-        // Hide tooltip
-        _this3.hideTooltip();
-
-        // Remove all year overview related items and labels
-        _this3.removeYearOverview();
-
-        // Redraw the chart
-        _this3.overview = 'day';
-        _this3.drawChart();
+        /*
+        if (this.in_transition) { return }
+         // Don't transition if there is no data to show
+        if (d.total === 0) { return }
+         this.in_transition = true
+         // Set selected date to the one clicked on
+        this.selected = d
+         // Hide tooltip
+        this.hideTooltip()
+         // Remove all year overview related items and labels
+        this.removeYearOverview()
+         // Redraw the chart
+        this.overview = 'day'
+        this.drawChart()
+         */
       }).on('mouseover', function (d) {
         if (_this3.in_transition) {
           return;
@@ -1757,7 +1750,7 @@ module.exports = function(list, options) {
 
 	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
 	// tags it will allow on a page
-	if (!options.singleton) options.singleton = isOldIE();
+	if (!options.singleton && typeof options.singleton !== "boolean") options.singleton = isOldIE();
 
 	// By default, add <style> tags to the <head> element
 	if (!options.insertInto) options.insertInto = "head";

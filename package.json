@@ -19,7 +19,10 @@
   "main": "dist/calendar-heatmap.min.js",
   "module": "dist/calendar-heatmap.min.js",
   "jsnext:main": "dist/calendar-heatmap.min.js",
-  "dependencies": {},
+  "dependencies": {
+    "d3": "^4.13.0",
+    "moment": "^2.24.0"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",

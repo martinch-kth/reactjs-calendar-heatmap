@@ -486,6 +486,8 @@ class CalendarHeatmap extends React.Component {
         return (d.total > 0) ? color(d.total) : 'transparent'
       })
       .on('click', d => {
+
+        /*
         if (this.in_transition) { return }
 
         // Don't transition if there is no data to show
@@ -505,6 +507,8 @@ class CalendarHeatmap extends React.Component {
         // Redraw the chart
         this.overview = 'day'
         this.drawChart()
+
+        */
       })
       .on('mouseover', d => {
         if (this.in_transition) { return }
