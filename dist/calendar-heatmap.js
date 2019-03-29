@@ -190,7 +190,7 @@ var CalendarHeatmap = function (_React$Component) {
       this.buttons = this.svg.append('g');
 
       // Add tooltip to the same element as main svg
-      this.tooltip = d3.select('#calendar-heatmap').append('div').attr('class', _calendarHeatmap2.default.heatmapTooltip).style('opacity', 0).style('pointer-events', 'none').style('position', 'absolute').style('z-index', 9999).style('width', '600px').style('max-width', '600px').style('overflow', 'hidden').style('padding', '15px').style('font-size', '12px').style('line-height', '14px').style('color', 'rgb(51, 51, 51)').style('background', 'rgba(255, 255, 255, 0.75)');
+      this.tooltip = d3.select('#calendar-heatmap').append('div').attr('class', _calendarHeatmap2.default.heatmapTooltip).style('opacity', 0).style('pointer-events', 'none').style('position', 'absolute').style('z-index', 9999).style('width', '700px').style('max-width', '700px').style('overflow', 'hidden').style('padding', '15px').style('font-size', '12px').style('line-height', '14px').style('color', 'rgb(51, 51, 51)').style('background', 'rgba(255, 255, 255, 0.75)');
 
       this.calcDimensions();
     }
