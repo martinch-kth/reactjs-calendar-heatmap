@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1e10c6b-2ed2-468e-a3c9-24640166dd92" name="Default Changelist" comment="" />
+    <list default="true" id="e1e10c6b-2ed2-468e-a3c9-24640166dd92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/calendar-heatmap.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+            <state relative-caret-position="787">
+              <caret line="1752" column="30" lean-forward="true" selection-start-line="1752" selection-start-column="30" selection-end-line="1752" selection-end-column="30" />
               <folding>
                 <element signature="n#!!block;n#componentDidMount#0;n#CalendarHeatmap#0" />
                 <element signature="n#!!block;n#componentWillUnmount#0;n#CalendarHeatmap#0" />
@@ -56,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/calendar-heatmap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="-8094">
+              <caret line="1681" lean-forward="true" selection-start-line="1681" selection-end-line="1681" />
             </state>
           </provider>
         </entry>
@@ -80,6 +82,9 @@
       <find>.compo</find>
       <find>creat</find>
       <find>600</find>
+      <find>#</find>
+      <find>round</find>
+      <find>Math.round</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,6 +119,12 @@
               <item name="reactjs-calendar-heatmap" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactjs-calendar-heatmap" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactjs-calendar-heatmap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactjs-calendar-heatmap" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="calendar-heatmap.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="reactjs-calendar-heatmap" type="b2602c69:ProjectViewProjectNode" />
@@ -158,14 +169,17 @@
       <workItem from="1552257544005" duration="2765000" />
       <workItem from="1553770617767" duration="5781000" />
       <workItem from="1553850600461" duration="989000" />
+      <workItem from="1554279123757" duration="131000" />
+      <workItem from="1555586987992" duration="801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9535000" />
+    <option name="totallyTimeSpent" value="10467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -181,7 +195,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.59874606" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17032392" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -202,10 +216,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/calendar-heatmap.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        <state relative-caret-position="787">
+          <caret line="1752" column="30" lean-forward="true" selection-start-line="1752" selection-start-column="30" selection-end-line="1752" selection-end-column="30" />
           <folding>
             <element signature="n#!!block;n#componentDidMount#0;n#CalendarHeatmap#0" />
             <element signature="n#!!block;n#componentWillUnmount#0;n#CalendarHeatmap#0" />
@@ -243,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/calendar-heatmap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="-8094">
+          <caret line="1681" lean-forward="true" selection-start-line="1681" selection-end-line="1681" />
         </state>
       </provider>
     </entry>
